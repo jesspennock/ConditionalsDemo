@@ -89,14 +89,23 @@ if (temperature >= 80 && rain === true){
   Create a for-loop that runs 10 times, and on each iteration logs the word 'hello'.
 */
 
+for (let i = 0; i<10; i++){
+  console.log ("hello")
+}
+
+
 //CODE HERE
+
+
 
 ////////// PROBLEM 6 //////////
 
 /*
   Create a for-loop that runs 10 times, logging the numbers 1 through 10. Ex, on the first iteration it would log 1, on the second iteration it would log 2.
 */
-
+for (let i = 0; i<10; i++){
+  console.log (i+1)
+}
 //CODE HERE
 
 ////////// PROBLEM 7 //////////
@@ -106,6 +115,9 @@ if (temperature >= 80 && rain === true){
 */
 
 //CODE HERE
+for (let i=10; i>0; i--){
+  console.log (i)
+}
 
 
 ////////// PROBLEM 8 //////////
@@ -118,6 +130,12 @@ let passingScore = 7;
 */
 
 //CODE HERE
+while (score < passingScore){
+  console.log ("Your score is not high enough");
+  score +=1;
+
+
+}
 
 ////////// INTERMEDIATE PROBLEMS //////////
 
@@ -127,6 +145,15 @@ let passingScore = 7;
   Check to see if changeMyMind is set to true or false, if it is true, change the status to false, if it is false, change the status to true.
 
 */
+let changeMyMind = true
+
+if (changeMyMind === true) {
+  changeMyMind === false
+}
+if (chhangeMyMind === false) {
+  changeMyMind === true
+}
+console.log
 
 //CODE HERE
 
