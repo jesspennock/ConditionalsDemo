@@ -148,12 +148,12 @@ while (score < passingScore){
 let changeMyMind = true
 
 if (changeMyMind === true) {
-  changeMyMind === false
+  changeMyMind = false
 }
-if (chhangeMyMind === false) {
-  changeMyMind === true
+else if(changeMyMind === false) {
+  changeMyMind = true
 }
-console.log
+console.log(changeMyMind)
 
 //CODE HERE
 
