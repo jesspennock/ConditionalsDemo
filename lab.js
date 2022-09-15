@@ -162,6 +162,11 @@ console.log(changeMyMind)
 
 //CODE HERE
 
+changeMyMind = !changeMyMind
+console.log(changeMyMind)
+
+
+
 
 
 ////////// ADVANCED PROBLEMS //////////
